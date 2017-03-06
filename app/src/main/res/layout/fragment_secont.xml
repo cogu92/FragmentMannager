@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AAAAAA"
+    android:background="@color/colorAccent"
     tools:context="com.example.dell.fragmentmannager.SecontFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -10,5 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
+
+    <TextView
+        android:text="Nothing to be shown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_infosecond_fragment"
+        android:layout_gravity="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
 
 </FrameLayout>
